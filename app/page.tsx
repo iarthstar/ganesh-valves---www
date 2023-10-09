@@ -427,13 +427,11 @@ const Footer = () => (
               </VStack>
               <FooterLinks />
             </HStack>
-            <HStack className="h-20 border-t items-center justify-center md:justify-between flex-col gap-y-4 md:flex-row">
+            <HStack className="h-20 border-t items-center justify-between text-neutral-500">
               <p className="text-xs">
                 ©2023 Ganesh Valves, All Rights Reserved
               </p>
-              <p className="text-xs flex flex-row">
-                Made by &nbsp;{ICONS.TOOLS}&nbsp; in Ahmedabad
-              </p>
+              <p className="text-center text-xs leading-loose md:text-left">Designed &amp; Developed by <a href="https://www.honeyhexa.com" target="_blank" rel="noreferrer" className="font-medium underline underline-offset-4 hover:text-blue-500">Honey Hexa</a>.</p>
             </HStack>
           </VStack>
         </footer>
